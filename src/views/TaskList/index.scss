@@ -1,0 +1,8 @@
+.task-item {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  input:checked + label {
+    text-decoration: line-through;
+  }
+}

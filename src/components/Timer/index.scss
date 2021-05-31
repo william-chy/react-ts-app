@@ -1,0 +1,13 @@
+div.clock {
+  transition: all 1s;
+  position: absolute;
+  right: 10%;
+  transform: translateX(50%);
+  z-index: 1000;
+  &.type-large {
+    font-weight: bold;
+    margin: auto;
+    font-size: 2rem;
+    right: 50%;
+  }
+}
