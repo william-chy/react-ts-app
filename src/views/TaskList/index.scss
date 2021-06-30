@@ -1,8 +1,4 @@
-.task-item {
-  display: flex;
-  justify-content: center;
-  align-items: top;
-  input:checked + label {
-    text-decoration: line-through;
-  }
+.panel {
+  width: 50%;
+  margin: 100px auto;
 }
